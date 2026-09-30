@@ -42,10 +42,10 @@ def generate_bigO_data(start=1, end=20):
             }
         )
 
-    # Cconvert the list into a Pandas DataFrame..
+    # Cconvert the list into a Pandas DataFrame....
     df = pd.DataFrame(rows)
 
-    # Display the results as a table..
+    # Display the results as a table....
     print(df.to_markdown(index=False))
 
 
